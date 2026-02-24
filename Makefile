@@ -23,7 +23,7 @@ CHECKPOINT_EXE = test_checkpoint
 FINAL_EXE      = test_final
 
 # ── Default target ────────────────────────────────────────────────────────────
-all: $(CHECKPOINT_EXE)
+all: $(CHECKPOINT_EXE) $(FINAL_EXE)
 
 # ── Link ─────────────────────────────────────────────────────────────────────
 $(CHECKPOINT_EXE): $(ALLOCATOR_OBJ) $(CHECKPOINT_OBJ)
