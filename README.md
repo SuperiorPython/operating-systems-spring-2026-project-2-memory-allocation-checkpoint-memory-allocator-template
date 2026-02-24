@@ -1,4 +1,4 @@
-# Project 2: Memory Allocator
+# Project 2: Memory Allocator lol
 
 ## Overview
 In this project, you will implement your own version of `malloc` and `free` using an **explicit free list** with immediate coalescing. This project will deepen your understanding of memory management, pointer manipulation, and data structure implementation at a low level.
